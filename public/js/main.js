@@ -39,6 +39,4 @@ const getDetail = async (e) => {
 
     }
 }
-
-// http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=ab8348ee2dc0501f9cfbf2505131503e
 submit_btn.addEventListener('click',getDetail);
