@@ -13,7 +13,7 @@ html{
 }
 body{
     font-family: 'Piazzolla', serif;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
 }
@@ -65,7 +65,7 @@ body{
     object-position: center;
 } */
 .main_header_left , .main_header_right{
-    height: 50rem;
+    height: 45rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,7 +109,8 @@ footer p{
 /* Error Page Style */
 .errImg{
     width: 50rem;
-    height: 50rem;
+    height: 45rem;
+    margin-top: 3px;
 }
 
 /* Weather Page Style */
@@ -123,7 +124,6 @@ footer p{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 5    px solid red; */
 }
 .Searchinput{
     width: 50rem;
@@ -140,22 +140,17 @@ footer p{
     width: 40rem;
     height: 30rem;
     margin: auto;
-    /* border: 5px solid black; */
     padding: 5px;
     background-color: #111;
     color: #fff;
-    margin-bottom: 21rem;
+    margin-bottom: 6.2rem;
     text-align: center;
 }
 .data_hide{
     visibility: hidden;
     transition: 0.3s ease-in-out all;
 }
-.top_layer{
-    display: flex;
-    justify-content: space-around;
-}
-.middle_layer{
+.top_layer,.middle_layer{
     display: flex;
     justify-content: space-around;
 }
